@@ -12,5 +12,8 @@ public class AsciiDemo {
 
         System.out.println((char)66);
         System.out.println((char)99);
+		
+		System.out.println((char)91);
+		System.out.println((char)95);
     }
-}
+}	
