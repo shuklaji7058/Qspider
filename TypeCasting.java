@@ -31,7 +31,11 @@ class TypeCasting
 	double d3 = 234567891254.0;
 	int a5 = (int)d3;
 	System.out.println("a4: " + a5);
-	System.out.printf("d3: " + d3);
+	System.out.println("d3: " + d3);
+	
+	float f1 = 2.3f;	
+	double d6 = f1;
+	System.out.println("d6: " + d6);
 
 	}
 
