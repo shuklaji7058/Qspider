@@ -1,0 +1,38 @@
+class TypeCasting
+{
+	public static void main(String args[])
+	{
+	//Implicitly
+	int a = 234;
+	double d = a;
+	System.out.println("Implicitly: d: " + d);
+	
+
+	//Explicitly OR Narrowing & Data Loss
+	
+	//if we want to perform typecasting explicitly then we need to put datatype in between 2 ( ) round brackets.
+	double d1 = 34.5;
+	int a1 = (int) d1;  
+	System.out.println("a1: " + a1);//output is 34
+	
+	int a4 = 130;
+	byte b1 = (byte) a4;
+	System.out.println("b1: " + b1); //output is -126
+
+	int a3 = (int)b1;
+	System.out.println("a3: " + a3);//output is -126
+	
+	
+	//Explicitly OR Narrowing & No Data Loss
+	double d2 = 33.0000;
+	int a2 = (int) d2;
+	System.out.println("a2: " + a2);//output is 33
+	
+	double d3 = 234567891254.0;
+	int a5 = (int)d3;
+	System.out.println("a4: " + a5);
+	System.out.printf("d3: " + d3);
+
+	}
+
+}

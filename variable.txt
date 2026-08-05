@@ -1,0 +1,47 @@
+●Variable - Whatever data/value we store in variable is also called named memory block.
+		   Variable is used to store data/value.
+			
+	Characteristics of variable - 
+		1)To store data/value we use variable name.
+		2)It can only stored one data/value in variable at a same time.
+		3)Variable has lifespan.
+		4)Variable has Scope(local/global)(visibility/accessibility).
+	
+	Advantages -
+		1)To Fetch data.
+		2)To Print data.
+		3)To Reassign data.
+		4)To Update data.
+		5)To Store data.
+		
+	Program for Variable - 
+			class Variable
+			{
+				public static void main(String args[])
+				{
+					int a = 3; //to store data
+					int b = a; //to Fetch data
+					a = 31; // to Reassign data
+					b = a+b+10+a; // to Update data
+					System.out.println(a); // to Print data
+				}
+			}
+				
+
+●Declare a variable(to create a variable):-
+			syntax - datatype identifier/variable_name;
+					eg., int a;
+						 int k;
+						 int m,k,g;
+						 
+	Assign value to  a variable-
+					a=3;
+					b=a; //Value in RHS is assigned to variable in LHS
+					
+		
+●Initialization of a Variable:- Assigning value to a variable for the first time is called as initialization
+			syntax - identifier = value;
+			
+●Declare & Initialize Together:-
+			syntax - datatype variable_name = value;
+			eg., int m=10;   int n=10,p=30;

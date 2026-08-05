@@ -1,0 +1,38 @@
+TOKENS - Smallest individual unit in program is called as Tokens.
+		 It have 6 types -
+		 1)Keywords - 
+				●Reserved words with predefined meaning, predefined words to perform specific predefined task.
+				●Keywords are aware & Known by Compiler.
+				●Keywords always written in lowercase.
+				●Keywords are always in Finite numbers(50 keywords & 3 reserved words - true,false,null).
+				●eg., class,void,static,if,else,throw,assert
+				
+		 2)Identifiers -
+				●Name given to any components and sub-components of Program is called as Identifiers.
+				●Any classname, methodname, variablename, enum is also called as Identifiers.
+				●Identifiers always given by programmers/users.
+				●They are Infinte.
+				
+				Rules for identifiers -
+					●Should not be a keywords.
+					●Should not be in numbers.
+					●Should not contain any special characters except $ and _ _ with characters.
+					●Should not contain space character.
+					
+				Conventions to name identifiers - 
+					(convention mean - Industry standard followed by programmers worldwide)
+					●classname - OneTimePassword (Pascal casing)
+					●methodname - oneTimePassword (Camal casing)
+					●variablename - onetimepassword (lowercase)
+					
+		 3)Literals - 
+				●Whatever Data/value used in code which is given by programmers are called as literals.
+				●In literals there are 
+				 -number literals, 
+				 -Character literals(Length is always in 1, and enclosed in single quote(' ')), 
+				 -Boolean literals(true,false), 
+				 -String literals(enclosed in double quote("")) are present.
+				 
+		 4)Operators
+		 5)Punctuator/Separator
+		 6)Comments
