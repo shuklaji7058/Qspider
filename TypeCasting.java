@@ -28,14 +28,23 @@ class TypeCasting
 	int a2 = (int) d2;
 	System.out.println("a2: " + a2);//output is 33
 	
-	double d3 = 234567891254.0;
+	double d3 = 23456789125497L;
+	//double d3 = 234567891254.97;
 	int a5 = (int)d3;
-	System.out.println("a4: " + a5);
-	System.out.println("d3: " + d3);
+	System.out.println("a5: " + a5);//output is 2147483647
+	System.out.println("d3: " + d3);//output is 2.34567891254E11
 	
 	float f1 = 2.3f;	
 	double d6 = f1;
 	System.out.println("d6: " + d6);
+	
+	char ch1= 97;
+	double d4 = (double) ch1;
+	System.out.println("d4: " + d4);// output is 97.00
+	
+	double d5 = 97.89;
+	char ch2 = (char) d5;
+	System.out.println("ch2: " + ch2); //output is a
 
 	}
 

@@ -9,6 +9,6 @@ class Variable
 	b = a+b+10+a;
 		System.out.println(b);
 		System.out.println(a);
-	}
+	}n
 }
 
