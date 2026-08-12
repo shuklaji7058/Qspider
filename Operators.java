@@ -141,6 +141,18 @@ System.out.println("*****Logical AND operator*****");
 	{
 		System.out.println("You are Wrong");
 	}
+	
+	String carbrand = "Suzuki";
+	double rate = 3000000;
+	
+	if((carbrand.equals("Suzuki")) || (carbrand.equals("TATA")) && (rate >=3000000))
+	{
+		System.out.println("Afordable");
+	}
+	else
+	{
+		System.out.println("Not Afordable");
+	}
 	}
 		
 }
