@@ -1,3 +1,4 @@
+//This code includes prime number, perfect number, factors
 class LogicalMath
 {
 	public static void main(String[] args)
@@ -14,7 +15,7 @@ class LogicalMath
 			System.out.println(num + " is composite number(checkPrimeNumber)");
 		}
 //-------------------------------------------------------------------------	
-		int mum = 13;
+		int mum = 12;
 		System.out.println("number of factors: "+ checkPrime(mum));	
 		if(checkPrime(mum)==1)
 		{
@@ -76,7 +77,7 @@ class LogicalMath
 		}
 		return count;
 	}
-//-------------------------------------------------------------------------			
+//---------------------------------------------------------------------------------			
 	public static boolean checkPrimeBoolean(int n)
 	{
 		int count = 0;
@@ -96,7 +97,7 @@ class LogicalMath
 			return false;
 		}
 	}
-//-------------------------------------------------------------------------		
+//-------------------------------------------------------------------------------	
 	public static String checkPrimeString(int n)
 	{
 		int count = 0;
@@ -116,7 +117,7 @@ class LogicalMath
 			return "composite number";
 		}
 	}
-//-------------------------------------------------------------------------	
+//---------------------------------------------------------------------------------
 	
 	public static int checkPerfect(int n)
 	{
