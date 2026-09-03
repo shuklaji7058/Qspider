@@ -1,24 +1,25 @@
-class pattern2
+class pattern3
 {
 	public static void main(String[] args)
 	{
 		int n = 5;
-		System.out.println("======================================");
 		for(int row=1; row<=n; row++)
 		{
 			for(int col=1; col<=n; col++)
 			{
-				System.out.print(" * ");
+				if(row>=col)
+					System.out.print(" * ");
+				else
+					System.out.print("");
 			}
 			System.out.println();
 		}
-		
 		System.out.println("======================================");
 		for(int row=1; row<=n; row++)
 		{
 			for(int col=1; col<=n; col++)
 			{
-				if(row==n || col==1 || row==col)
+				if(row<=col)
 					System.out.print(" * ");
 				else
 					System.out.print("   ");
@@ -30,7 +31,7 @@ class pattern2
 		{
 			for(int col=1; col<=n; col++)
 			{
-				if(row==1 || col==5 || row==col)
+				if(row+col >=(n+1))
 					System.out.print(" * ");
 				else
 					System.out.print("   ");
@@ -42,7 +43,7 @@ class pattern2
 		{
 			for(int col=1; col<=n; col++)
 			{
-				if(row==n || col==5 || row+col==(n+1))
+				if(row+col <=(n+1))
 					System.out.print(" * ");
 				else
 					System.out.print("   ");
@@ -50,17 +51,5 @@ class pattern2
 			System.out.println();
 		}
 		System.out.println("======================================");
-		for(int row=1; row<=n; row++)
-		{
-			for(int col=1; col<=n; col++)
-			{
-				if(row==1 || col==1 || row+col==(n+1))
-					System.out.print(" * ");
-				else
-					System.out.print("   ");
-			}
-			System.out.println();
-		}
-		System.out.println("======================================");		
 	}
 }
