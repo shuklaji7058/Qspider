@@ -37,7 +37,7 @@ System.out.println("================(2)====================================");
 			System.out.println();
 			
 		}
-System.out.println("================(3)====================================");
+System.out.println("=====================(3)====================================");
 		for(int row=1;row<=n*2-1;row++)
 		{
 			for(int col=1;col<=n*2-1;col++)
@@ -56,19 +56,19 @@ System.out.println("================(3)====================================");
 			}
 			System.out.println();	
 		}
-System.out.println("================(4)====================================");
-
-		for(int row=1;row<=n*2-1;row++)
+System.out.println("=====================(4)====================================");
+		n=3;
+		for(int row=1;row<=n;row++)
 		{
 			int b = row+1;
 			for(int col=1;col<=n*2-1;col++)
 			{
-				if((col-row)<= (n-1) && (col+row)>=(n+1))
+				if((col+row)>=(n+1) && (col-row)<= (n-1))
 				{
 					if(col<=n)
 					{
 						b--;
-						System.out.print(" "+b+" ");
+						System.out.print(" " + b + " ");
 					}
 					else
 					{
@@ -77,12 +77,34 @@ System.out.println("================(4)====================================");
 					}
 				}
 				else
-					System.out.print("  ");
-				
+					System.out.print("   ");				
+			}
+			System.out.println();	
+		}
+System.out.println("===================(5)====================================");
+
+		for(int row=1; row<=n; row++)
+		{
+			int a = 0;
+			for(int col=0; col<=n*2-1; col++)
+			{
+				if((col+row) >= (n+1) && (col-row) <= (n-1))
+				{
+					if(col <= n)
+					{
+						a++;
+						System.out.print(" " + a + " ");
+					}
+					else
+					{
+						a--;
+						System.out.print(" " + a + " ");
+					}
+				}
+				else
+					System.out.print("   ");
 			}
 			System.out.println();
-			
 		}
-
 	}
 }
