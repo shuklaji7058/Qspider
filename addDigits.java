@@ -33,6 +33,5 @@ class addDigits
 			o = o/10;
 		}
 			System.out.println(min);
-
 	}
 }
