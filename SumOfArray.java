@@ -3,6 +3,19 @@ class SumOfArray
 {
 	public static void main(String[] args)
 	{
+		System.out.println("Sum of numbers in char Array");
+		char[] ch = {'a','$','2','s','6','3'};
+		int sum3 = 0;
+		
+		for(int i=0; i<ch.length; i++)
+		{
+			if((ch[i]>='0') && (ch[i]<='9'))
+				sum3 = sum3 + (ch[i]-'0');
+		}
+		System.out.println(sum3);
+		
+		
+//----------------------------------------------------------------------------------
 		System.out.println("Sum of Even index Elements");
 		int[] a = {1, 2, 3, 4, 5,};
 		  //index- 0, 1, 2, 3, 4
